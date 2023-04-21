@@ -1,5 +1,15 @@
-# SarangaRajagopalan-TakeHomeProject-Quicknode
+# Contract Information Extractor
 
-Quicknode TakeHome Project Parts 1 and 2
+This project uses the Etherscan REST API to extract information about a list of cryptocurrrency smart contracts, such as transaction volume and hashes
 
-Saranga Rajagopalan
+## Installation/Running
+
+#### Requirements
+ - pandas
+ - tqdm
+ - requests
+ - jupyter
+ - This project can be run using Jupyter with:
+ ```bash
+ jupyter src/ContractInfoExtraction.ipynb
+ ```
